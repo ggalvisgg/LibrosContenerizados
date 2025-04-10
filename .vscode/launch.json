@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LibrosDockerApplication<Libros-Docker>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.contenerizacion.Libros_Docker.LibrosDockerApplication",
+            "projectName": "Libros-Docker",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
