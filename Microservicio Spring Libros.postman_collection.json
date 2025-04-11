@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "8b7da1ad-0342-4cf0-a1f6-0ae8f89b9fcd",
+		"name": "Microservicio Spring Libros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "34482721"
+	},
+	"item": [
+		{
+			"name": "Obtener por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/libros/{{id}}"
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/libros"
+			},
+			"response": []
+		},
+		{
+			"name": "Crear libros",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"titulo\": \"Cien años de soledad\",\n  \"autor\": \"Gabriel García Márquez\",\n  \"isbn\": \"123456\",\n  \"anioPublicacion\": 1967\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/libros"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Editar libro",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"titulo\": \"Cien años\",\n  \"autor\": \"Gabriel García Márquez\",\n  \"isbn\": \"123456\",\n  \"anioPublicacion\": 1967\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/libros/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar libro",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/libros/{{id}}"
+			},
+			"response": []
+		}
+	]
+}

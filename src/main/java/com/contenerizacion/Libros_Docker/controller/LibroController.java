@@ -18,7 +18,7 @@ public class LibroController {
     @Autowired
     private LibroService libroService;
 
-    @GetMapping
+    @GetMapping("/")
     public List<Libro> listarLibros() {
         return libroService.listarLibros();
     }
@@ -30,6 +30,7 @@ public class LibroController {
 
     @PostMapping
     public ResponseEntity<Libro> guardarLibro(@RequestBody Libro libro) {
+        System.out.println(libro);
         return new ResponseEntity<>(libroService.guardarLibro(libro), HttpStatus.CREATED);
     }
 

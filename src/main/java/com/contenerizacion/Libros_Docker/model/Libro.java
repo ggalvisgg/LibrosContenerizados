@@ -1,7 +1,5 @@
 package com.contenerizacion.Libros_Docker.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import jakarta.persistence.*;
 
 @Entity
@@ -17,6 +15,13 @@ public class Libro {
     private Integer anioPublicacion;
 
     public Libro(String titulo, String autor, String isbn, Integer anioPublicacion){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.isbn = isbn;
+        this.anioPublicacion = anioPublicacion;
+    }
+
+    public Libro(Long id, String titulo, String autor, String isbn, Integer anioPublicacion){
     }
 
     public Libro(){
