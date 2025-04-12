@@ -1,0 +1,6 @@
+/home/gabriela/Documentos/Electiva/Libros-Docker/src/main/java/com/contenerizacion/Libros_Docker/LibrosDockerApplication.java
+/home/gabriela/Documentos/Electiva/Libros-Docker/src/main/java/com/contenerizacion/Libros_Docker/controller/LibroController.java
+/home/gabriela/Documentos/Electiva/Libros-Docker/src/main/java/com/contenerizacion/Libros_Docker/model/Libro.java
+/home/gabriela/Documentos/Electiva/Libros-Docker/src/main/java/com/contenerizacion/Libros_Docker/repository/LibroRepository.java
+/home/gabriela/Documentos/Electiva/Libros-Docker/src/main/java/com/contenerizacion/Libros_Docker/service/LibroImplementation.java
+/home/gabriela/Documentos/Electiva/Libros-Docker/src/main/java/com/contenerizacion/Libros_Docker/service/LibroService.java

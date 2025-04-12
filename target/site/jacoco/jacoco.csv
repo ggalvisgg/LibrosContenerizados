@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Libros-Docker,com.contenerizacion.Libros_Docker.controller,LibroController,0,39,0,0,0,8,0,6,0,6
+Libros-Docker,com.contenerizacion.Libros_Docker.model,Libro,3,53,0,0,2,18,1,12,1,12
+Libros-Docker,com.contenerizacion.Libros_Docker,LibrosDockerApplication,8,0,0,0,3,0,2,0,2,0
+Libros-Docker,com.contenerizacion.Libros_Docker.service,LibroImplementation,31,26,0,0,6,7,2,5,2,5

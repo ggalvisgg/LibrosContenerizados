@@ -1,0 +1,6 @@
+com/contenerizacion/Libros_Docker/LibrosDockerApplication.class
+com/contenerizacion/Libros_Docker/service/LibroImplementation.class
+com/contenerizacion/Libros_Docker/service/LibroService.class
+com/contenerizacion/Libros_Docker/repository/LibroRepository.class
+com/contenerizacion/Libros_Docker/controller/LibroController.class
+com/contenerizacion/Libros_Docker/model/Libro.class
